@@ -1,0 +1,248 @@
+html, body, form, fieldset, ul, ol, li, dl, dt, dd, img, table { /* clear-padded-elements */
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	height: 100%;
+}
+/* Outer Content Wrapper (Surrounds header & content) */
+#Outer {
+	width:985px;
+	clear: both;
+	position:relative;
+    left:17px;
+}
+
+#Wrapper {
+	clear: both;
+	text-align:left;
+}
+
+/* Header */
+
+#Container {
+	background:#FFF;
+	width: 1020px;
+	margin: 0 auto;;
+}
+/* loader */
+#loading{height:100%;width:100%;position:absolute;z-index:9999;background:#FFF;filter:alpha(opacity=60);
+  /* CSS3 standard */
+  opacity:0.6;vertical-align:middle;display:table;
+}
+#loading #loadingContainer{position:absolute;top:44%;left:40%;width:auto;text-align:center;font-size:13px;color:#000;}
+#loading img{padding-bottom:5px;}
+
+
+
+
+#accountAvatar{width:100px; height:100px; border:5px solid #CCCCCC;margin:20px;}
+#linkBox {margin:30px;}
+#linkBox select{font-size:11px;}
+.last{float:none;}
+.column{float:left; text-align:left;width:900px;}
+
+#Header{height:70px;background:#ee2375;margin-bottom:20px;display:block;clear:both;}
+#logo{float:left;padding:5px;}
+#sitename{float:left; margin:35px 30px 0px 10px;color:#FFF;font-size:20px;font-weight:bold;} 
+.linkBox{float:left;padding:23px 5px 0px 10px;}
+#logout{float:right; margin:40px 30px 0px 10px;}
+#logout a{color:#FFF;}
+#logout span{color:#FFF;}
+#stage{width:100%;height:100%;}
+
+.alertText{color:#990000;}
+.alertField{border:1px solid #990000;width:140px;}
+.formfield{width:140px;}
+
+#contactForm{width:450px;}
+#contactForm .title, #result .title, #modify .title {font-size:14px;font-weight:bold;text-align:left;}
+#contactForm .emphasisText {text-align:right;}
+
+#test{width:80%;}
+
+#pagination{font-size:11px; padding-bottom:5px;text-align:right;width:500px;}
+.thisPage{font-weight:bold;}
+
+
+
+.contentRow{}
+.contentRow .areaHeader{clear:both;text-align:left;color:#ee2375;font-size:20px;font-weight:bold;margin:30px 0 10px 0;padding-top:30px;}
+.contentItem{width:190px;float:left;text-align:center;}
+.contentItem img{margin-bottom:5px;}
+.contentItem a img{border:none;margin-top:4px;margin-bottom:0px;}
+.areaContent{text-align:left;}
+.areaContent ul{margin-left:20px;}
+.areaContent li{margin-bottom:10px;}
+.areaBg{clear:both;background:url(../../images/divider.jpg) repeat-x;}
+.areaSubHeader{clear:both;font-size:16px;font-weight:bold;padding:5px;color:#444;}
+.areaSubContent{clear:both;}
+
+.saveas{color:#777;font-size:11px;padding-bottom:8px;}
+.supportTxt{margin-bottom:5px;font-size:12px;color:#666;}
+.addhand{cursor:pointer;cursor:hand;}
+
+/*** Calendar **********************/
+
+
+#SideCategoryList{padding-top:39px;float:left;}
+#SideCategoryList ul {width:300px;}
+#SideCategoryList ul li{
+	margin:0;
+	width:300px;
+	list-style:none;
+	text-indent:0px;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;position:relative;
+
+}
+#SideCategoryList a{color:#FFF;text-decoration:none;background:#none;}
+#SideCategoryList li ul{
+        display:none;
+        background-color: #ee2375;
+      	color:#666666;
+		height:auto;
+		position:absolute;
+        padding:5px 10px;
+		width: auto;
+		z-index: 9999;
+		clear:both;
+		top:20px;
+		left:0px;
+		/*box-shadow: 0px 5px 5px #727272;
+		-webkit-box-shadow: 0px 5px 5px #727272;
+		-moz-box-shadow: 0px 5px 5px #727272;
+		filter: progid:DXImageTransform.Microsoft.dropShadow(color=#727272, offX=0, offY=7, positive=true);
+		filter: progid:DXImageTransform.Microsoft.Shadow(color='#666666', Direction=180, Strength=8);*/
+}
+
+/* Fix IE. Hide from IE Mac \*/
+* html #menuTop ul li{float:none;height:1%;}
+* html #menuTop ul li a{height:1%;}
+/* End */
+#SideCateogryList img{clear:right;}
+#SideCategoryList ul ul li{
+	padding:2px 0px 0px;
+	color:#8e8e8e;
+	width:auto;
+	height:auto;
+	text-align:left;
+	line-height:200%;
+}
+
+#SideCategoryList li ul li div.last{border:0;}
+div#SideCategoryList ul ul, div#SideCategoryList ul ul ul, div#SideCategoryList ul li:hover ul ul, div#SideCategoryList ul li:hover ul ul ul {display:none;}
+div#SideCategoryList ul li:hover ul, div#SideCategoryList ul ul li:hover ul, div#SideCategoryList ul ul ul li:hover ul{display:block;}
+
+
+#pageTitle{clear:both;height:60px;padding-bottom:30px;}
+#pageTitle p{font-size:24px; font-style:italic; color:#666; float:left;margin:0;padding:0;margin-right:10px;margin-top:5px; text-transform:uppercase;}
+#pageTitle form{float:left;}
+
+#pageTitle span{float:left;clear:left;font-size:24px;padding-right:10px;margin-top:3px;}
+
+.ui-daterangepickercontain{font-size:10px;}
+input {width: 196px; height: 1.1em; display:block;}
+.instock{color:#000000;background:url(../../images/line.png) no-repeat;}
+.backorder{color:#ff0000;background:url(../../images/line.png) no-repeat;}
+.ssboqty, .tboqty{color:#ff0000;}
+
+.col{float:left;font-size:13px;}
+.ord{float:left;font-size:11px;padding:2px 0;height:16px;}
+
+#titleContainer, .titleContainer{background:#f0e6eb;}
+.title{float:left;height:40px;font-weight:bold;background:#f0e6eb;padding-top:3px;}
+.total{background:url(images/linetotal.gif) top right no-repeat;}
+
+.bold{font-weight:bold;}
+
+.last{float:none;}
+.date{width:85px;padding-left:5px;}
+.date img{padding-right:2px;position:relative;top:-1px;}
+.invs{width:53px;}
+.cusid{width:55px;}
+.cusname{width:265px;overflow:hidden;height:16px;}
+.cusname a{color:#ee2375;}
+.cusname a:hover{color:#FFF;background:#ee2375;}
+.qty{width:35px;text-align:right;}
+.amt{with:60px;text-align:right;padding-right:5px;}
+
+
+.prodsku{margin-left:0px;width:90px;overflow:hidden;}
+.prodname{width:165px;overflow:hidden;height:16px;}
+.unitprice{width:40px;text-align:left;}
+.eta{width:75px;padding-left:5px;}
+
+.contentRow{display:block;border-bottom:1px solid #eee;bgcolor:#FFFFFF;}
+
+.shadowOn{relative;z-index:1;}
+
+
+.invHeader{padding:3px 0px;}
+.invHeader:hover{background:#eee};
+.invContent{}
+.subtotal{text-align:right;width:75px;padding-left:5px;}
+
+
+
+#summary{border:1px solid #ccc;margin:0 0 10px 0;display:block;}
+#summary p{padding:10px 5px;line-height:10px;margin:0px;color:#888;}
+#summary .col{border-right:1px solid #ccc;}
+#summary .qty{width:200px;}
+#summary .last{border:none;}
+#summary .invs{width:200px;}
+#summary .invs p{text-align:right;}
+#summary .date{width:300px;}
+#summary #date,
+#summary #totalinvs,
+#summary #totalqty,
+#summary #totalamt{font-size:20px;padding-right:5px;text-align:right;padding-bottom:10px;}
+#summary #date{text-align:left;}
+
+
+/* SEARCH FORMS AND INPUTS */
+.formInput fieldset {padding:0px;  text-indent:0;  width:330px; cursor:pointer; outline:0;border:0;}
+.formInput button {margin:0 2px 0 0; float:right;}
+.formInput input {background:url(../../images/bg_search.gif) no-repeat;font:italic 16px Georgia; padding:8px 0 8px 8px; margin:0px;float:left; border:1px solid #e1dfdf;padding-right:45px;}
+.formInput input.pointer{cursor:pointer;}
+.formInput input:hover{border:1px solid #666;}
+.formInput fieldset div{float:left;margin:10px 0px;}
+
+.formInput .searchbox{width:170px;}
+
+
+.search{background:url(../../images/close.png);}
+
+.btn{background:url(../../images/bg_search.png);
+height: 36px;
+background-repeat: no-repeat;
+overflow-x: hidden;
+overflow-y: hidden;
+color:#FFF;
+text-transform:uppercase;font-weight:bold;border:none;padding:0px 10px;
+}
+.btn:hover
+{
+cursor: pointer;
+text-decoration: none;
+background-position: 0pt -5px;
+}
+.btn span{display:none;}
+/***** log in box ******************/
+#login { width:300px; height:auto;text-align:center;padding:0px; margin: 20px auto;border:1px solid #777;}
+
+#loginForm{width:270px;text-align:left;margin: 0 auto;padding-bottom:20px;} 
+
+#loginForm .title{float:none;height:auto;font-weight:bold;background:none;padding-top:0px;}
+.fieldContent{height:auto;margin-bottom:10px;clear:both;}
+#loginForm .formfield{width: 140px;}
+
+.fieldContent h1{font-size:14px; padding:0px;}
+.fieldContent{}
+.fieldContent label{width:70px;display:block;float:left;}
+.fieldContent input{width:auto;height:auto;}
+.fieldAction{text-align:right;position:relative;top:-25px;}
+.errorMsg{margin-left:0px;padding-bottom:10px;text-align:left;color:#FF0000;}
