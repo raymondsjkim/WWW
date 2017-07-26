@@ -1,0 +1,26 @@
+
+.editable, textarea{
+	background-color: #ffffd3;
+}
+
+textarea{
+	/*width: 150px;
+	height:30px;
+	font-size: 100%;*/
+}
+
+img.progress{
+	vertical-align: middle;
+	padding: 0 10px;
+}
+
+
+
+#dptext{float:none;position:relative;top:0px;padding: 0px 0px 0px 5px;margin-bottom:10px;line-height:160%;z-index:999;}
+#dptext2{margin-top:10px;clear:both;float:none;}
+
+input {font-size:10px;}
+.last {float:none;padding:0px; }
+
+#result .fieldContent{height:60px;}
+#result .result1{width:210px;}
