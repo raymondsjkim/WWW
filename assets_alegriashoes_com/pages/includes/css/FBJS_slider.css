@@ -1,0 +1,26 @@
+<style type="text/css">	
+#wrapper { clear: left; overflow: hidden; position: relative; width: 520px; }
+#slideWrap { clear: both; position: relative; width: 9000px;}
+.slide { float: left; width: 520px; }
+ 
+#wrapper #slideNav { float: right; margin: -2.75em 0 2em 0; }
+	#slideNav li { display: inline; padding: 0; }
+		#slideNav li a { 
+			background: url(http://cmcilrath.rssready.net/xcel/assets/images/bg_slideNav.png?v=3) no-repeat -12px top; 
+			display: block; 
+			float: left;
+			height: 12px; 
+			margin-right: .5em;
+			text-decoration: none; 
+			text-indent: -999em;
+			width: 12px; 
+		}
+		#slideNav li a.next, #slideNav li a.prev { width: 10px; }
+		#slideNav li a.selected { color: #000; background-position: -12px bottom; }
+ 
+		#slideNav li#prevSlide a { background-position: top left; }
+		#slideNav li#prevSlide a.disabled { background-position: bottom left; }
+ 
+		#slideNav li#nextSlide a { background-position: top right; }
+		#slideNav li#nextSlide a.disabled { background-position: bottom right; }	
+</style>

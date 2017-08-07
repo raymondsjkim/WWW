@@ -1,0 +1,9 @@
+#slideshow_wrapper { width:190px; clear: both; margin-bottom: 20px; }
+
+	#slideshow { overflow: hidden; width: 190px; float: none; position:relative; margin-right: 0px; clear:both;}
+	#slideshow_inner { position: relative; width: 760px; display:table;}
+	#slideshow_inner a { opacity:0.7; margin: 0 7px; }
+	#slideshow_inner a:hover { opacity: 1; }
+	
+	#slideshow_inner .span{float:left;display:table;background:#00aa00;}
+

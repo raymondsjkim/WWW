@@ -1,0 +1,5 @@
+#slideshow_wrapper { width:530px; clear: both; margin-bottom: 20px; }
+	#slideshow { overflow: hidden; width: 244px; float: left; position:relative; margin-right: 5px; }
+	#slideshow_inner { position: relative; width: 976px; }
+	#slideshow_inner a { opacity:0.7; margin: 0 7px; }
+	#slideshow_inner a:hover { opacity: 1; }
